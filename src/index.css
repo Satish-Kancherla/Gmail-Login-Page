@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@0;1&display=swap');
+
+
+body {
+  margin: 0;margin: 0;box-sizing: border-box;background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.signup-container{
+  padding-top: 10px;margin-top: 10px;border-radius: 10px; border: 2px solid rgb(236, 233, 233);margin-top: 200px;
+  text-align: center;width: 450px;height: 500px;margin-left: 700px;/* box-shadow: 0 20px 20px rgba(0,0,0,0.6); */
+}
+/* .signup-container h1 {
+  color: #4285F4;
+} */
+
+img{
+  width: 100px;margin-top: 30px;
+}
+
+.signup-container h2{
+  font-weight: 500;font-size: 25px;
+}
+.signup-container  h3{
+  font-weight: 490;font-size: 17px;
+}
+
+
+ .sign-data input{
+    height: 45px;font-size: 18px;padding-left: 10px; border: 2px solid rgb(155, 149, 149);
+    border-radius: 5px;font-family: sans-serif;outline: none;
+}
+.forget{
+  text-align: start;margin: 5px 40px;
+}
+.forget a{
+  text-decoration: none;color: #207DFF;font-weight: 600;
+}
+.sign-p{
+  text-align: left;font-size: 15px;margin: 30px 40px;font-weight: 400;
+}
+.sign-p a{
+  text-decoration: none;color: #207DFF;
+}
+.signup-footer{
+  display: flex;justify-content: space-between;margin: 0 40px;
+}
+.account a{
+  text-decoration: none;color: #207DFF;font-weight: 600;font-size: 17px;
+}
+
+.sign-button button{
+  width:100px;height: 35px;background-color: #207DFF;color: white;border: none;border-radius: 5px;
+}
+
+.create-data input{
+  height: 45px;font-size: 18px;padding-left: 10px; border: 2px solid rgb(155, 149, 149);border-radius: 5px;
+  margin-bottom: 10px;font-family: sans-serif;outline: none;
+}
+input:focus{
+  border: 2px solid #207DFF;
+}
+input:focus-visible{
+  border: 2px solid #207DFF;
+}
+.forget-button button{
+  width:100px;height: 35px;background-color: #207DFF;color: white;border: none;border-radius: 5px;
+  margin-left: 270px;margin-top: 20px;
+}
+.create-button button{
+  width:100px;height: 35px;background-color: #207DFF;color: white;border: none;border-radius: 5px;
+  margin-left: 270px;margin-top: 10px;
+}
+.password-button button{
+  width:100px;height: 35px;background-color: #207DFF;color: white;border: none;border-radius: 5px;
+  margin-left: 270px;margin-top: 20px;
+}
+.password-checkbox{ 
+  text-align: start; margin:10px 40px; font-size: 15px;
+}
+.password-checkbox input{
+  border: 2px solid black;
+}
+
+.pwd-data input{
+  height: 45px;font-size: 18px;padding-left: 10px; border: 2px solid rgb(155, 149, 149);border-radius: 5px;
+  margin-bottom: 5px;margin-top: 10px; font-family: sans-serif;outline: none;
+}
+
+.welcome img{
+  width: 1000px;height: 500px;margin-left: 400px;margin-top: 150px;
+}
+
+
+
+.signup-rows label{
+  display: flex;font-size: 15px;font-weight: 500;margin-top: 10px;margin-left: 20px;
+}
+.date{
+  border: 1px solid black;border-radius: 3px;margin-right:10px;width: 120px;height: 40px;margin-top: 10px;text-align: center;font-size: 15px;font-weight: 550;outline: none;
+}
+.month{
+  border: 1px solid black;border-radius: 3px;margin-right:10px;width: 120px;height: 40px;text-align: center;font-size: 15px;font-weight: 550;outline: none;
+}
+.year{
+  border: 1px solid black;border-radius: 3px;width: 120px;height: 40px;text-align: center;font-size: 15px;font-weight: 550;outline: none;
+}
+.gender {
+  border: 1px solid black;border-radius: 3px;width: 380px;height: 40px;
+  text-align: center;font-size: 15px;font-weight: 550;margin-top: 20px;outline: none;
+}
+.date:focus, .month:focus, .year:focus, .gender:focus{
+  border:2px solid #207DFF;
+}
+
+.bday a{
+  text-decoration: none;font-size: 15px;color: #207DFF;font-weight: 500;
+}
+.bday {
+  text-align: left;margin-left: 35px;margin-top: 10px;
+}
